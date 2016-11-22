@@ -19,8 +19,8 @@ In this case - please use following wiring:
 MISO - GPIO12 (hw spi)
 MOSI - GPIO13 (hw spi)
 SCK  - GPIO14 (hw spi)
-SS   - GPIO04 (free GPIO)
-RST  - GPIO05 (free GPIO)
+SS   - GPIO04 (free GPIO)// no meu caso usarei pino GPIO0 (d3)
+RST  - GPIO05 (free GPIO)// no meu caso usarei pino GPIO2 (d4)
 ```
 
 ## define RFID module
